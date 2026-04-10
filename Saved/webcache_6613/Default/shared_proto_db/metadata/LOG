@@ -1,3 +1,2 @@
-2026/04/10-23:42:00.849 bd0 Reusing MANIFEST C:\Users\pc\Downloads\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001
-2026/04/10-23:42:00.849 bd0 Recovering log #3
-2026/04/10-23:42:00.850 bd0 Reusing old log C:\Users\pc\Downloads\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata/000003.log 
+2026/04/11-00:25:59.767 22fc Creating DB C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata since it was missing.
+2026/04/11-00:25:59.775 22fc Reusing MANIFEST C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001

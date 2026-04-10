@@ -1,3 +1,2 @@
-2026/04/10-23:41:58.483 11c8 Reusing MANIFEST C:\Users\pc\Downloads\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\Sync Data\LevelDB/MANIFEST-000001
-2026/04/10-23:41:58.484 11c8 Recovering log #3
-2026/04/10-23:41:58.485 11c8 Reusing old log C:\Users\pc\Downloads\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\Sync Data\LevelDB/000003.log 
+2026/04/11-00:25:57.222 3a64 Creating DB C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\Sync Data\LevelDB since it was missing.
+2026/04/11-00:25:57.236 3a64 Reusing MANIFEST C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\Sync Data\LevelDB/MANIFEST-000001
