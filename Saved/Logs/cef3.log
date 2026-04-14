@@ -1,13 +1,20 @@
-[17108:3584:0411/002557.175:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[17108:16148:0411/002557.208:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[17108:3584:0411/002557.215:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[17108:3584:0411/002559.767:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[24744:24748:0411/002600.819:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-80C909D44212192A4FC178266F892A93 will be ignored
-[17108:12976:0411/002601.112:WARNING:browser_info.cc(345)] Returning a speculative frame for [7,9]
-[17108:3584:0411/002601.159:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[17108:3584:0411/002601.159:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[17108:3584:0411/002601.159:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[17108:3584:0411/002601.159:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[17108:12976:0411/002601.177:WARNING:browser_info.cc(345)] Returning a speculative frame for [8,5]
-[17108:12976:0411/002607.534:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[17108:3584:0411/002613.323:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[24052:4712:0412/224240.205:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[24052:18288:0412/224240.379:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[24052:4712:0412/224240.465:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[2584:11964:0412/224245.016:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[2584:444:0412/224245.092:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[2584:11964:0412/224245.099:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[24052:4712:0412/224246.878:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[24676:24152:0412/224248.019:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-B1677FB66B92F329E3570770669BB0C0 will be ignored
+[2584:11964:0412/224250.200:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[24052:18356:0412/224250.284:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[3524:21708:0412/224253.187:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-9E2E87EE9CEE569FC42F5113E3C5AAC4 will be ignored
+[2584:6512:0412/224255.786:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[2584:11964:0412/224255.987:WARNING:page_discarding_helper.cc(138)] Discarding multiple pages with target (kb): 0
+[24052:18356:0412/233048.390:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[2584:6512:0412/233048.437:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[24052:18356:0413/000251.035:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[2584:6512:0413/000255.050:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[24052:4712:0413/021835.398:ERROR:device_event_log_impl.cc(196)] [02:18:35.339] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[2584:11964:0413/021835.398:ERROR:device_event_log_impl.cc(196)] [02:18:35.339] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[24052:4712:0413/021846.075:WARNING:sad_tab.cc(255)] Tab Killed: https://editor.unrealengine.com/
