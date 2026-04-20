@@ -1,20 +1,334 @@
-[24052:4712:0412/224240.205:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[24052:18288:0412/224240.379:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[24052:4712:0412/224240.465:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[2584:11964:0412/224245.016:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[2584:444:0412/224245.092:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[2584:11964:0412/224245.099:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[24052:4712:0412/224246.878:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[24676:24152:0412/224248.019:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-B1677FB66B92F329E3570770669BB0C0 will be ignored
-[2584:11964:0412/224250.200:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[24052:18356:0412/224250.284:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[3524:21708:0412/224253.187:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-9E2E87EE9CEE569FC42F5113E3C5AAC4 will be ignored
-[2584:6512:0412/224255.786:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[2584:11964:0412/224255.987:WARNING:page_discarding_helper.cc(138)] Discarding multiple pages with target (kb): 0
-[24052:18356:0412/233048.390:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[2584:6512:0412/233048.437:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[24052:18356:0413/000251.035:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[2584:6512:0413/000255.050:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[24052:4712:0413/021835.398:ERROR:device_event_log_impl.cc(196)] [02:18:35.339] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[2584:11964:0413/021835.398:ERROR:device_event_log_impl.cc(196)] [02:18:35.339] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[24052:4712:0413/021846.075:WARNING:sad_tab.cc(255)] Tab Killed: https://editor.unrealengine.com/
+[20460:12608:0417/143746.981:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[20460:4052:0417/143747.039:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[20460:12608:0417/143747.045:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[20460:12608:0417/143750.564:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[22068:10304:0417/143752.837:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-ECFC01D9738F8D11343FF7F64CE770B2 will be ignored
+[20460:18720:0417/143755.021:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[20460:18720:0417/144254.271:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=76})
+[20460:18720:0417/144255.273:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=74})
+[20460:18720:0417/144257.270:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=75})
+[20460:18720:0417/144258.276:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=100})
+[20460:16328:0417/144319.297:VERBOSE1:background_downloader_win.cc(478)] Starting BITS download for: http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/V3P1l2hLvLw_7/7_all_sslErrorAssistant.crx3
+[20460:12824:0417/144323.345:VERBOSE1:unpacker.cc(66)] Verifying component: C:\Users\pc\AppData\Local\Temp\chrome_BITS_20460_403886171\7_all_sslErrorAssistant.crx3
+[20460:12824:0417/144323.346:VERBOSE1:unpacker.cc(95)] Unpacking in: C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_1067954844
+[20460:12824:0417/144323.414:VERBOSE1:component_installer.cc(146)] Install: version=7 current version=0.0.0.0
+[20460:12824:0417/144323.414:VERBOSE1:component_installer.cc(165)] unpack_path=C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_1067954844 install_path=C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\SSLErrorAssistant\7
+[20460:12608:0417/144323.427:VERBOSE1:component_installer.cc(572)] Component ready, version 7 in C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\SSLErrorAssistant\7
+[18284:21772:0417/144323.441:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://update.googleapis.com/service/update2/json
+[18284:21772:0417/144323.452:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144323.467:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144323.468:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/144323.552:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144323.552:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144323.552:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:12608:0417/144323.750:VERBOSE1:request_sender.cc(183)] Request completed from url: https://update.googleapis.com/service/update2/json
+[20460:16328:0417/144323.783:VERBOSE1:background_downloader_win.cc(478)] Starting BITS download for: http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/acrx7ouhu6es4mtakecyfqbyef2q_1.1.0.3/laoigpblnllgcgjnjnllmfolckpjlhki_1.1.0.3_all_adwgvw4jdcarox4vlsm7t4gq257a.crx3
+[20460:12824:0417/144327.871:VERBOSE1:unpacker.cc(66)] Verifying component: C:\Users\pc\AppData\Local\Temp\chrome_BITS_20460_1891261324\laoigpblnllgcgjnjnllmfolckpjlhki_1.1.0.3_all_adwgvw4jdcarox4vlsm7t4gq257a.crx3
+[20460:12824:0417/144327.872:VERBOSE1:unpacker.cc(95)] Unpacking in: C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_1560801043
+[20460:12824:0417/144327.931:VERBOSE1:component_installer.cc(146)] Install: version=1.1.0.3 current version=0.0.0.0
+[20460:12824:0417/144327.931:VERBOSE1:component_installer.cc(165)] unpack_path=C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_1560801043 install_path=C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\MEIPreload\1.1.0.3
+[20460:12608:0417/144327.945:VERBOSE1:component_installer.cc(572)] Component ready, version 1.1.0.3 in C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\MEIPreload\1.1.0.3
+[18284:21772:0417/144327.960:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://update.googleapis.com/service/update2/json
+[20460:12608:0417/144328.192:VERBOSE1:request_sender.cc(183)] Request completed from url: https://update.googleapis.com/service/update2/json
+[18284:21772:0417/144329.607:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/144329.616:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144329.639:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144329.640:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/144329.720:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144329.720:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144329.720:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:16328:0417/144332.452:VERBOSE1:background_downloader_win.cc(478)] Starting BITS download for: http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/acxwqxk4zw7doartgstbr2tezokq_1639/efniojlnjndmcbiieegkicadnoecjjef_1639_all_i5xjqzkeu6bao4gmxoyn3gzq3e.crx3
+[20460:12824:0417/144336.504:VERBOSE1:unpacker.cc(66)] Verifying component: C:\Users\pc\AppData\Local\Temp\chrome_BITS_20460_1904416097\efniojlnjndmcbiieegkicadnoecjjef_1639_all_i5xjqzkeu6bao4gmxoyn3gzq3e.crx3
+[20460:12824:0417/144336.505:VERBOSE1:unpacker.cc(95)] Unpacking in: C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_749286349
+[20460:12824:0417/144336.572:VERBOSE1:component_installer.cc(146)] Install: version=1639 current version=0.0.0.0
+[20460:12824:0417/144336.572:VERBOSE1:component_installer.cc(165)] unpack_path=C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_749286349 install_path=C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\PKIMetadata\1639
+[20460:12608:0417/144336.585:VERBOSE1:component_installer.cc(572)] Component ready, version 1639 in C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\PKIMetadata\1639
+[18284:21772:0417/144336.602:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://update.googleapis.com/service/update2/json
+[18284:21772:0417/144336.603:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144336.630:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144336.631:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/144336.704:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144336.704:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144336.704:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:12608:0417/144336.936:VERBOSE1:request_sender.cc(183)] Request completed from url: https://update.googleapis.com/service/update2/json
+[20460:16328:0417/144345.384:VERBOSE1:background_downloader_win.cc(478)] Starting BITS download for: http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/pusj5vh3lkssdnng52mdw6khti_3091/jflookgnkcckhobaglndicnbbgbonegd_3091_all_adfb4phbxwqsxsfvrtgwwtg25z6a.crx3
+[20460:12824:0417/144349.490:VERBOSE1:unpacker.cc(66)] Verifying component: C:\Users\pc\AppData\Local\Temp\chrome_BITS_20460_2021231181\jflookgnkcckhobaglndicnbbgbonegd_3091_all_adfb4phbxwqsxsfvrtgwwtg25z6a.crx3
+[20460:12824:0417/144349.491:VERBOSE1:unpacker.cc(95)] Unpacking in: C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_205521883
+[20460:12824:0417/144349.561:VERBOSE1:component_installer.cc(146)] Install: version=3091 current version=0.0.0.0
+[20460:12824:0417/144349.561:VERBOSE1:component_installer.cc(165)] unpack_path=C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_205521883 install_path=C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\SafetyTips\3091
+[20460:12608:0417/144349.575:VERBOSE1:component_installer.cc(572)] Component ready, version 3091 in C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\SafetyTips\3091
+[18284:21772:0417/144349.588:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://update.googleapis.com/service/update2/json
+[20460:12608:0417/144349.787:VERBOSE1:request_sender.cc(183)] Request completed from url: https://update.googleapis.com/service/update2/json
+[20460:16328:0417/144402.495:VERBOSE1:background_downloader_win.cc(478)] Starting BITS download for: http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/ir6u3chhfmsgknb2jlbjztc62a_2026.4.16.60/ggkkehgbnfjpeggfpleeakpidbkibbmn_2026.4.16.60_all_addzvezc3gl5jekjl7diu3lmxsza.crx3
+[20460:12824:0417/144406.582:VERBOSE1:unpacker.cc(66)] Verifying component: C:\Users\pc\AppData\Local\Temp\chrome_BITS_20460_1142422289\ggkkehgbnfjpeggfpleeakpidbkibbmn_2026.4.16.60_all_addzvezc3gl5jekjl7diu3lmxsza.crx3
+[20460:12824:0417/144406.585:VERBOSE1:unpacker.cc(95)] Unpacking in: C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_1665126020
+[20460:12824:0417/144406.642:VERBOSE1:component_installer.cc(146)] Install: version=2026.4.16.60 current version=0.0.0.0
+[20460:12824:0417/144406.642:VERBOSE1:component_installer.cc(165)] unpack_path=C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_1665126020 install_path=C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\Crowd Deny\2026.4.16.60
+[20460:12608:0417/144406.655:VERBOSE1:component_installer.cc(572)] Component ready, version 2026.4.16.60 in C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\Crowd Deny\2026.4.16.60
+[18284:21772:0417/144406.669:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://update.googleapis.com/service/update2/json
+[20460:12608:0417/144406.832:VERBOSE1:request_sender.cc(183)] Request completed from url: https://update.googleapis.com/service/update2/json
+[20460:12608:0417/144421.161:VERBOSE1:device_event_log_impl.cc(198)] [14:44:21.147] Display: EVENT: screen_win.cc:893 Displays updated, count: 1
+[20460:12608:0417/144421.161:VERBOSE1:device_event_log_impl.cc(198)] [14:44:21.160] Display: EVENT: screen_win.cc:895 Display[2315605461] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[20460:12608:0417/144423.469:VERBOSE1:device_event_log_impl.cc(198)] [14:44:23.469] Display: EVENT: screen_win.cc:893 Displays updated, count: 1
+[20460:12608:0417/144423.469:VERBOSE1:device_event_log_impl.cc(198)] [14:44:23.469] Display: EVENT: screen_win.cc:895 Display[2315605461] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[20460:16328:0417/144423.760:VERBOSE1:background_downloader_win.cc(478)] Starting BITS download for: http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/acaldksiunzh56452py2db5mnbpa_120.0.6050.0/jamhcnnkihinmdlkakkaopbjbbcngflc_120.0.6050.0_all_dgzfpknn7v3zslsbhrwu6bt44e.crx3
+[20460:12608:0417/144426.133:VERBOSE1:device_event_log_impl.cc(198)] [14:44:26.132] Display: EVENT: screen_win.cc:893 Displays updated, count: 1
+[20460:12608:0417/144426.133:VERBOSE1:device_event_log_impl.cc(198)] [14:44:26.132] Display: EVENT: screen_win.cc:895 Display[2315605461] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[20460:12824:0417/144428.592:VERBOSE1:unpacker.cc(66)] Verifying component: C:\Users\pc\AppData\Local\Temp\chrome_BITS_20460_1706888069\jamhcnnkihinmdlkakkaopbjbbcngflc_120.0.6050.0_all_dgzfpknn7v3zslsbhrwu6bt44e.crx3
+[20460:12824:0417/144428.595:VERBOSE1:unpacker.cc(95)] Unpacking in: C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_1586854115
+[20460:12824:0417/144429.590:VERBOSE1:component_installer.cc(146)] Install: version=120.0.6050.0 current version=0.0.0.0
+[20460:12824:0417/144429.590:VERBOSE1:component_installer.cc(165)] unpack_path=C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_1586854115 install_path=C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\hyphen-data\120.0.6050.0
+[20460:12608:0417/144429.924:VERBOSE1:component_installer.cc(572)] Component ready, version 120.0.6050.0 in C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\hyphen-data\120.0.6050.0
+[20460:12608:0417/144429.924:VERBOSE1:hyphenation_component_installer.cc(110)] Hyphenation Component ready, version 120.0.6050.0 in C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\hyphen-data\120.0.6050.0
+[18284:21772:0417/144430.260:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://update.googleapis.com/service/update2/json
+[20460:12608:0417/144430.597:VERBOSE1:request_sender.cc(183)] Request completed from url: https://update.googleapis.com/service/update2/json
+[20460:12608:0417/144450.427:VERBOSE1:device_event_log_impl.cc(198)] [14:44:50.426] Display: EVENT: screen_win.cc:893 Displays updated, count: 1
+[20460:12608:0417/144450.427:VERBOSE1:device_event_log_impl.cc(198)] [14:44:50.426] Display: EVENT: screen_win.cc:895 Display[2315605461] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[20460:16328:0417/144454.369:VERBOSE1:background_downloader_win.cc(478)] Starting BITS download for: http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/aca2hvz26rf7nouxdifokqhxrypa_2025.6.13.84507/eeigpngbgcognadeebkilcpcaedhellh_2025.06.13.084507_all_acip2yapafsolnpcvaohkisaowaq.crx3
+[20460:12824:0417/144458.412:VERBOSE1:unpacker.cc(66)] Verifying component: C:\Users\pc\AppData\Local\Temp\chrome_BITS_20460_1423965826\eeigpngbgcognadeebkilcpcaedhellh_2025.06.13.084507_all_acip2yapafsolnpcvaohkisaowaq.crx3
+[20460:12824:0417/144458.413:VERBOSE1:unpacker.cc(95)] Unpacking in: C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_1065013596
+[20460:12824:0417/144458.593:VERBOSE1:component_installer.cc(146)] Install: version=2025.6.13.84507 current version=0.0.0.0
+[20460:12824:0417/144458.593:VERBOSE1:component_installer.cc(165)] unpack_path=C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_1065013596 install_path=C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\AutofillStates\2025.6.13.84507
+[20460:12608:0417/144458.613:VERBOSE1:component_installer.cc(572)] Component ready, version 2025.6.13.84507 in C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\AutofillStates\2025.6.13.84507
+[18284:21772:0417/144458.623:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://update.googleapis.com/service/update2/json
+[20460:12608:0417/144458.851:VERBOSE1:request_sender.cc(183)] Request completed from url: https://update.googleapis.com/service/update2/json
+[20460:16328:0417/144526.923:VERBOSE1:background_downloader_win.cc(478)] Starting BITS download for: http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/j2hxfei2occ5siitujtlwgp6xi_3/ojhpjlocmbogdgmfpkhlaaeamibhnphh_3_all_gplutbkdljxxbjolk3siq7kive.crx3
+[20460:12824:0417/144530.992:VERBOSE1:unpacker.cc(66)] Verifying component: C:\Users\pc\AppData\Local\Temp\chrome_BITS_20460_1954187857\ojhpjlocmbogdgmfpkhlaaeamibhnphh_3_all_gplutbkdljxxbjolk3siq7kive.crx3
+[20460:12824:0417/144530.995:VERBOSE1:unpacker.cc(95)] Unpacking in: C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_508464480
+[20460:12824:0417/144531.064:VERBOSE1:component_installer.cc(146)] Install: version=3 current version=0.0.0.0
+[20460:12824:0417/144531.064:VERBOSE1:component_installer.cc(165)] unpack_path=C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_508464480 install_path=C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\ZxcvbnData\3
+[20460:12608:0417/144531.074:VERBOSE1:component_installer.cc(572)] Component ready, version 3 in C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\ZxcvbnData\3
+[18284:21772:0417/144531.084:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://update.googleapis.com/service/update2/json
+[18284:21772:0417/144531.093:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144531.093:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/144531.203:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144531.203:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144531.203:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:12608:0417/144531.395:VERBOSE1:request_sender.cc(183)] Request completed from url: https://update.googleapis.com/service/update2/json
+[20460:16328:0417/144531.436:VERBOSE1:background_downloader_win.cc(478)] Starting BITS download for: http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/af5e7gndpipvjfca7x3cj66vwm_2025.7.24.0/gonpemdgkjcecdgbnaabipppbmgfggbe_2025.07.24.00_all_hou4jz7zmeg5zedchpigdjxhve.crx3
+[20460:12824:0417/144535.527:VERBOSE1:unpacker.cc(66)] Verifying component: C:\Users\pc\AppData\Local\Temp\chrome_BITS_20460_2136343633\gonpemdgkjcecdgbnaabipppbmgfggbe_2025.07.24.00_all_hou4jz7zmeg5zedchpigdjxhve.crx3
+[20460:12824:0417/144535.528:VERBOSE1:unpacker.cc(95)] Unpacking in: C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_2056508235
+[20460:12824:0417/144535.586:VERBOSE1:component_installer.cc(146)] Install: version=2025.7.24.0 current version=0.0.0.0
+[20460:12824:0417/144535.586:VERBOSE1:component_installer.cc(165)] unpack_path=C:\Users\pc\AppData\Local\Temp\chrome_Unpacker_BeginUnzipping20460_2056508235 install_path=C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\FirstPartySetsPreloaded\2025.7.24.0
+[20460:12608:0417/144535.596:VERBOSE1:component_installer.cc(572)] Component ready, version 2025.7.24.0 in C:\Users\pc\Documents\GitHub\GDL_G2_Game_ZIP\Saved\webcache_6613\FirstPartySetsPreloaded\2025.7.24.0
+[18284:21772:0417/144535.609:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://update.googleapis.com/service/update2/json
+[20460:12608:0417/144535.782:VERBOSE1:request_sender.cc(183)] Request completed from url: https://update.googleapis.com/service/update2/json
+[20460:12608:0417/144535.782:VERBOSE1:component_updater_service.cc(472)] Update completed with error 0
+[18284:21772:0417/144608.942:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/144608.951:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144608.967:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144608.967:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/144609.053:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144609.053:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144609.053:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:18720:0417/144655.431:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=85})
+[20460:18720:0417/144656.428:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=100})
+[18284:21772:0417/144903.673:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/144903.692:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144903.693:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/144903.800:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144903.800:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/144903.800:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[18284:21772:0417/145136.387:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/145136.398:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145136.398:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/145136.508:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145136.508:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145136.508:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:18720:0417/145233.652:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=72})
+[20460:18720:0417/145235.656:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=74})
+[20460:18720:0417/145236.655:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=72})
+[20460:18720:0417/145237.653:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=71})
+[20460:18720:0417/145239.662:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=72})
+[20460:18720:0417/145240.658:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=73})
+[20460:18720:0417/145241.662:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=74})
+[20460:18720:0417/145243.660:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=73})
+[20460:18720:0417/145244.667:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=72})
+[20460:18720:0417/145246.660:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=73})
+[20460:18720:0417/145247.669:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=76})
+[20460:18720:0417/145248.670:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=77})
+[20460:18720:0417/145249.667:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=79})
+[20460:18720:0417/145250.669:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=81})
+[20460:18720:0417/145251.663:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=82})
+[20460:18720:0417/145252.673:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=81})
+[20460:18720:0417/145253.855:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=82})
+[20460:18720:0417/145254.666:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=83})
+[20460:18720:0417/145258.669:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=82})
+[20460:18720:0417/145300.670:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=83})
+[20460:18720:0417/145301.669:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=100})
+[20460:18720:0417/145331.850:VERBOSE1:cast_socket.cc(627)] [192.168.0.183:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::OPEN
+[20460:18720:0417/145331.850:VERBOSE1:cast_socket.cc(227)] [192.168.0.183:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[20460:18720:0417/145331.850:VERBOSE1:cast_socket.cc(391)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoTcpConnect
+[20460:18720:0417/145341.851:VERBOSE1:cast_socket.cc(306)] [192.168.0.183:8009, auth=SSL_VERIFIED] Timeout while establishing a connection.
+[20460:18720:0417/145341.851:VERBOSE1:cast_socket.cc(665)] [192.168.0.183:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_TIMEOUT
+[20460:18720:0417/145341.851:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_TIMEOUT)
+[20460:18720:0417/145341.851:VERBOSE1:cast_socket.cc(627)] [192.168.0.183:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[20460:18720:0417/145341.851:VERBOSE1:cast_socket.cc(227)] [192.168.0.183:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[20460:18720:0417/145341.851:VERBOSE1:cast_socket.cc(391)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoTcpConnect
+[20460:18720:0417/145351.852:VERBOSE1:cast_socket.cc(306)] [192.168.0.183:8009, auth=SSL_VERIFIED] Timeout while establishing a connection.
+[20460:18720:0417/145351.852:VERBOSE1:cast_socket.cc(665)] [192.168.0.183:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_TIMEOUT
+[20460:18720:0417/145351.852:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_TIMEOUT)
+[20460:18720:0417/145351.852:VERBOSE1:cast_socket.cc(627)] [192.168.0.183:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[20460:18720:0417/145400.395:VERBOSE1:cast_socket.cc(227)] [192.168.0.183:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[20460:18720:0417/145400.395:VERBOSE1:cast_socket.cc(391)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoTcpConnect
+[20460:18720:0417/145410.396:VERBOSE1:cast_socket.cc(306)] [192.168.0.183:8009, auth=SSL_VERIFIED] Timeout while establishing a connection.
+[20460:18720:0417/145410.396:VERBOSE1:cast_socket.cc(665)] [192.168.0.183:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_TIMEOUT
+[20460:18720:0417/145410.396:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_TIMEOUT)
+[20460:18720:0417/145410.396:VERBOSE1:cast_socket.cc(627)] [192.168.0.183:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[20460:18720:0417/145424.179:VERBOSE1:cast_socket.cc(227)] [192.168.0.183:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[20460:18720:0417/145424.179:VERBOSE1:cast_socket.cc(391)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoTcpConnect
+[18284:21772:0417/145427.065:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/145427.075:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145427.076:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/145427.174:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145427.174:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145427.175:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:18720:0417/145434.179:VERBOSE1:cast_socket.cc(306)] [192.168.0.183:8009, auth=SSL_VERIFIED] Timeout while establishing a connection.
+[20460:18720:0417/145434.179:VERBOSE1:cast_socket.cc(665)] [192.168.0.183:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_TIMEOUT
+[20460:18720:0417/145434.179:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_TIMEOUT)
+[20460:18720:0417/145434.179:VERBOSE1:cast_socket.cc(627)] [192.168.0.183:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[20460:12608:0417/145553.343:VERBOSE1:device_event_log_impl.cc(198)] [14:55:53.351] Display: EVENT: screen_win.cc:893 Displays updated, count: 1
+[20460:12608:0417/145553.343:VERBOSE1:device_event_log_impl.cc(198)] [14:55:53.351] Display: EVENT: screen_win.cc:895 Display[2315605461] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[18284:21772:0417/145724.102:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/145724.112:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145724.113:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/145724.214:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145724.214:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145724.214:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:12608:0417/145949.173:VERBOSE1:device_event_log_impl.cc(198)] [14:59:49.178] Display: EVENT: screen_win.cc:893 Displays updated, count: 1
+[20460:12608:0417/145949.173:VERBOSE1:device_event_log_impl.cc(198)] [14:59:49.178] Display: EVENT: screen_win.cc:895 Display[2315605461] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[18284:21772:0417/145957.058:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/145957.070:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145957.071:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/145957.178:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145957.178:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/145957.178:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[18284:21772:0417/150237.920:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/150237.931:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150237.931:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/150238.030:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150238.031:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150238.031:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:12608:0417/150345.970:VERBOSE1:device_event_log_impl.cc(198)] [15:03:45.970] Display: EVENT: screen_win.cc:893 Displays updated, count: 1
+[20460:12608:0417/150345.970:VERBOSE1:device_event_log_impl.cc(198)] [15:03:45.970] Display: EVENT: screen_win.cc:895 Display[2315605461] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[18284:21772:0417/150528.156:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/150528.167:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150528.167:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/150528.268:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150528.268:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150528.268:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:18720:0417/150725.108:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=84})
+[20460:18720:0417/150727.106:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=100})
+[18284:21772:0417/150752.809:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=ChoKCGNocm9taXVtEg4xMjguMC42NjEzLjEzOBoMCAUQASIEIAEgAigBGgwIARABIgQgASACKAEaDAgDEAEiBCABIAIoARoMCAcQASIEIAEgAigBGgwIARAIIgQgASACKAQaDAgPEAEiBCABIAIoARoMCAkQASIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=dummytoken
+[18284:21772:0417/150752.820:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150752.834:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150752.920:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150752.920:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150752.920:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150752.920:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150752.942:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150752.942:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:18720:0417/150803.125:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=84})
+[20460:18720:0417/150804.125:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=00006CA40239E540}, {new_limit=100})
+[18284:21772:0417/150809.573:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/150809.583:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150809.584:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/150809.684:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150809.684:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/150809.684:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:12608:0417/150822.587:VERBOSE1:device_event_log_impl.cc(198)] [15:08:22.600] Display: EVENT: screen_win.cc:893 Displays updated, count: 1
+[20460:12608:0417/150822.587:VERBOSE1:device_event_log_impl.cc(198)] [15:08:22.600] Display: EVENT: screen_win.cc:895 Display[2315605461] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[20460:12608:0417/151038.614:VERBOSE1:device_event_log_impl.cc(198)] [15:10:38.620] Display: EVENT: screen_win.cc:893 Displays updated, count: 1
+[20460:12608:0417/151038.614:VERBOSE1:device_event_log_impl.cc(198)] [15:10:38.620] Display: EVENT: screen_win.cc:895 Display[2315605461] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[18284:21772:0417/151049.541:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/151049.551:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151049.552:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/151049.652:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151049.652:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151049.652:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[18284:21772:0417/151347.977:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/151347.987:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151347.987:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/151348.088:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151348.088:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151348.088:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[18284:21772:0417/151643.459:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/151643.468:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151643.496:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151643.496:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/151643.568:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151643.568:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151643.568:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[18284:21772:0417/151751.341:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: http://192.168.0.183:1693/
+[20460:18720:0417/151754.333:VERBOSE1:cast_socket.cc(227)] [192.168.0.183:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[20460:18720:0417/151754.333:VERBOSE1:cast_socket.cc(391)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoTcpConnect
+[20460:18720:0417/151754.347:VERBOSE1:cast_socket.cc(405)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoTcpConnectComplete: 0
+[20460:18720:0417/151754.347:VERBOSE1:cast_socket.cc(422)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoSslConnect
+[20460:18720:0417/151754.372:VERBOSE1:cast_socket.cc(445)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoSslConnectComplete: 0
+[20460:18720:0417/151754.372:VERBOSE1:cast_socket.cc(476)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoAuthChallengeSend
+[20460:18720:0417/151754.372:VERBOSE1:cast_socket.cc(481)] [192.168.0.183:8009, auth=SSL_VERIFIED] Sending challenge: {source_id: sender-0, destination_id: receiver-0, namespace: urn:x-cast:com.google.cast.tp.deviceauth, payload_binary: (22 bytes)}
+[20460:18720:0417/151754.372:VERBOSE1:cast_socket.cc(492)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoAuthChallengeSendComplete: 0
+[20460:18720:0417/151754.445:VERBOSE1:cast_socket.cc(538)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoAuthChallengeReplyComplete: 0
+[20460:18720:0417/151754.445:VERBOSE1:cast_auth_util.cc(97)] Auth message: {response: {signature: (256 bytes), certificate: (936 bytes)}}
+[20460:18720:0417/151754.445:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[20460:18720:0417/151754.445:VERBOSE1:cast_socket.cc(184)] 
+[20460:18720:0417/151754.445:VERBOSE1:cast_socket.cc(557)] [192.168.0.183:8009, auth=SSL_VERIFIED] Auth challenge verification succeeded
+[20460:18720:0417/151754.445:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::NONE)
+[20460:18720:0417/151754.445:VERBOSE1:cast_message_handler.cc(462)] Creating VC for channel: 6, source: sender-159043, dest: receiver-0
+[20460:18720:0417/151754.445:VERBOSE1:cast_message_handler.cc(444)] SendCastMessageToSocket: channel_id: 6, message: {source_id: sender-159043, destination_id: receiver-0, namespace: urn:x-cast:com.google.cast.receiver, payload_utf8: {"requestId":2,"type":"GET_STATUS"}}
+[20460:18720:0417/151754.451:VERBOSE1:cast_message_handler.cc(362)] OnMessage: channel_id: 6, message: {source_id: receiver-0, destination_id: sender-159043, namespace: urn:x-cast:com.google.cast.receiver, payload_utf8: {"requestId":2,"status":{"isActiveInput":false,"isStandby":false},"type":"RECEIVER_STATUS"}}
+[18284:21772:0417/151931.313:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/151931.322:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151931.322:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/151931.426:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151931.426:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/151931.426:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[18284:21772:0417/152203.944:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/152203.955:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/152203.956:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/152204.058:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/152204.058:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/152204.058:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[18284:21772:0417/152444.082:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/152444.095:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/152444.095:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/152444.197:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/152444.197:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/152444.197:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[18284:21772:0417/152725.491:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[18284:21772:0417/152725.500:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/152725.500:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[18284:21772:0417/152725.600:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/152725.600:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[18284:21772:0417/152725.600:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[20460:18720:0417/152830.300:VERBOSE1:cast_socket.cc(627)] [192.168.0.183:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::OPEN
+[20460:18720:0417/152830.300:VERBOSE1:cast_socket.cc(227)] [192.168.0.183:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[20460:18720:0417/152830.300:VERBOSE1:cast_socket.cc(391)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoTcpConnect
+[20460:18720:0417/152840.299:VERBOSE1:cast_socket.cc(306)] [192.168.0.183:8009, auth=SSL_VERIFIED] Timeout while establishing a connection.
+[20460:18720:0417/152840.299:VERBOSE1:cast_socket.cc(665)] [192.168.0.183:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_TIMEOUT
+[20460:18720:0417/152840.299:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_TIMEOUT)
+[20460:18720:0417/152840.299:VERBOSE1:cast_socket.cc(627)] [192.168.0.183:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[20460:18720:0417/152840.299:VERBOSE1:cast_socket.cc(227)] [192.168.0.183:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[20460:18720:0417/152840.299:VERBOSE1:cast_socket.cc(391)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoTcpConnect
+[20460:18720:0417/152850.299:VERBOSE1:cast_socket.cc(306)] [192.168.0.183:8009, auth=SSL_VERIFIED] Timeout while establishing a connection.
+[20460:18720:0417/152850.299:VERBOSE1:cast_socket.cc(665)] [192.168.0.183:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_TIMEOUT
+[20460:18720:0417/152850.299:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_TIMEOUT)
+[20460:18720:0417/152850.299:VERBOSE1:cast_socket.cc(627)] [192.168.0.183:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[20460:18720:0417/152903.167:VERBOSE1:cast_socket.cc(227)] [192.168.0.183:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[20460:18720:0417/152903.167:VERBOSE1:cast_socket.cc(391)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoTcpConnect
+[20460:18720:0417/152913.167:VERBOSE1:cast_socket.cc(306)] [192.168.0.183:8009, auth=SSL_VERIFIED] Timeout while establishing a connection.
+[20460:18720:0417/152913.167:VERBOSE1:cast_socket.cc(665)] [192.168.0.183:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_TIMEOUT
+[20460:18720:0417/152913.167:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_TIMEOUT)
+[20460:18720:0417/152913.167:VERBOSE1:cast_socket.cc(627)] [192.168.0.183:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[20460:18720:0417/152925.860:VERBOSE1:cast_socket.cc(227)] [192.168.0.183:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[20460:18720:0417/152925.860:VERBOSE1:cast_socket.cc(391)] [192.168.0.183:8009, auth=SSL_VERIFIED] DoTcpConnect
+[20460:18720:0417/152935.859:VERBOSE1:cast_socket.cc(306)] [192.168.0.183:8009, auth=SSL_VERIFIED] Timeout while establishing a connection.
+[20460:18720:0417/152935.859:VERBOSE1:cast_socket.cc(665)] [192.168.0.183:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_TIMEOUT
+[20460:18720:0417/152935.859:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_TIMEOUT)
+[20460:18720:0417/152935.859:VERBOSE1:cast_socket.cc(627)] [192.168.0.183:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[20460:12608:0417/152956.732:VERBOSE1:device_event_log_impl.cc(198)] [15:29:56.733] Display: EVENT: screen_win.cc:893 Displays updated, count: 1
+[20460:12608:0417/152956.732:VERBOSE1:device_event_log_impl.cc(198)] [15:29:56.733] Display: EVENT: screen_win.cc:895 Display[2315605461] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[16908:7080:0417/153012.220:VERBOSE1:frame_impl.cc(620)] frame 6-271529A43CF27FD7B707BB8CFFE608C5 disconnected (reason=BROWSER_FRAME_DISCONNECT, current_state=CONNECTION_ACKED)
+[16908:7080:0417/153012.220:VERBOSE1:frame_impl.cc(633)] frame 6-271529A43CF27FD7B707BB8CFFE608C5 connection retry scheduled
+[16908:7080:0417/153012.220:VERBOSE1:frame_impl.cc(620)] frame 6-0B656A5E1F79988AF73BC809F4A3CEC3 disconnected (reason=BROWSER_FRAME_DISCONNECT, current_state=CONNECTION_ACKED)
+[16908:7080:0417/153012.220:VERBOSE1:frame_impl.cc(633)] frame 6-0B656A5E1F79988AF73BC809F4A3CEC3 connection retry scheduled
