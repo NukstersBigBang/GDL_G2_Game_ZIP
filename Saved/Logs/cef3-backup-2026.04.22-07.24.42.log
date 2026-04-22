@@ -1,0 +1,14 @@
+[17256:37924:0422/172313.761:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[17256:37924:0422/172313.934:ERROR:os_crypt_win.cc(100)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[17256:37924:0422/172314.220:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[17256:26572:0422/172321.284:WARNING:leveldb_database.cc(141)] Unable to open C:\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[17256:26572:0422/172321.290:WARNING:leveldb_database.cc(141)] Unable to open C:\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[17256:26572:0422/172321.293:WARNING:leveldb_database.cc(141)] Unable to open C:\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[17256:26572:0422/172321.297:WARNING:leveldb_database.cc(141)] Unable to open C:\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata: IO error: C:\GDL_G2_Game_ZIP\Saved\webcache_6613\Default\shared_proto_db\metadata/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[17256:26572:0422/172322.569:WARNING:value_store_frontend.cc(47)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[17256:26572:0422/172322.572:WARNING:value_store_frontend.cc(47)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[9144:22544:0422/172322.644:ERROR:backend_impl.cc(989)] Critical error found -8
+[17256:37924:0422/172322.701:ERROR:device_event_log_impl.cc(196)] [17:23:22.649] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[9144:22544:0422/172322.970:WARNING:storage_block-inl.h(138)] Failed data load.
+[17256:37924:0422/172355.087:WARNING:page_discarding_helper.cc(138)] Discarding multiple pages with target (kb): 0
+[17256:37924:0422/172442.472:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
